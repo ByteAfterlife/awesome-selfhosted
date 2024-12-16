@@ -119,6 +119,7 @@ See [Contributing](#contributing).
 
 [Authentication](https://en.wikipedia.org/wiki/Authentication) is the task of verifying a user's identity.
 - [Authentik](https://goauthentik.io/) - Open source, easy to setup and lets you self-host an authentication provider. ([Source Code](https://github.com/goauthentik/authentik)) `Docker`
+- [Keycloak](https://www.keycloak.org/) - Open source, easy to setup and lets you self-host an authentication provider. ([Source Code](https://github.com/keycloak/keycloak) `Docker`
 ### Analytics
 
 **[`^        back to top        ^`](#awesome-selfhosted)**
