@@ -15,6 +15,7 @@ See [Contributing](#contributing).
 ## Table of contents
 
 - [Software](#software)
+  - [Authentication](#authentication)
   - [Analytics](#analytics)
   - [Archiving and Digital Preservation (DP)](#archiving-and-digital-preservation-dp)
   - [Automation](#automation)
@@ -112,7 +113,12 @@ See [Contributing](#contributing).
 --------------------
 
 ## Software
+### Authentication
 
+**[`^        back to top        ^`](#awesome-selfhosted)**
+
+[Authentication](https://en.wikipedia.org/wiki/Authentication) is the task of verifying a user's identity.
+- [Authentik](https://goauthentik.io/) - Open source, easy to setup and lets you self-host an authentication provider. ([Source Code](https://github.com/goauthentik/authentik)) `Docker`
 ### Analytics
 
 **[`^        back to top        ^`](#awesome-selfhosted)**
