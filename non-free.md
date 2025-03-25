@@ -11,26 +11,25 @@
   - [Communication - Custom Communication Systems](#communication---custom-communication-systems)
   - [Communication - Email - Mailing Lists and Newsletters](#communication---email---mailing-lists-and-newsletters)
   - [Communication - SIP](#communication---sip)
+  - [Communication - Video Conferencing](#communication---video-conferencing)
   - [Content Management Systems (CMS)](#content-management-systems-cms)
   - [Database Management](#database-management)
   - [Document Management - E-books](#document-management---e-books)
   - [E-commerce](#e-commerce)
   - [File Transfer & Synchronization](#file-transfer--synchronization)
-  - [File Transfer - Object Storage & File Servers](#file-transfer---object-storage--file-servers)
   - [Games](#games)
   - [Knowledge Management Tools](#knowledge-management-tools)
   - [Maps and Global Positioning System (GPS)](#maps-and-global-positioning-system-gps)
   - [Media Streaming - Video Streaming](#media-streaming---video-streaming)
   - [Miscellaneous](#miscellaneous)
   - [Money, Budgeting & Management](#money-budgeting--management)
-  - [Pastebins](#pastebins)
-  - [Photo and Video Galleries](#photo-and-video-galleries)
-  - [Proxy](#proxy)
+  - [Photo Galleries](#photo-galleries)
   - [Recipe Management](#recipe-management)
   - [Remote Access](#remote-access)
   - [Search Engines](#search-engines)
   - [Self-hosting Solutions](#self-hosting-solutions)
   - [Software Development - API Management](#software-development---api-management)
+  - [Software Development - IDE & Tools](#software-development---ide--tools)
   - [Software Development - Low Code](#software-development---low-code)
   - [Software Development - Project Management](#software-development---project-management)
   - [Software Development - Testing](#software-development---testing)
@@ -76,6 +75,13 @@
 - [3CX](https://www.3cx.com/pbx/) - Full-featured PABX system, with call queues, built-in web conferencing, live chat and social media messaging all on one system. `⊘ Proprietary` `Unknown`
 
 
+### Communication - Video Conferencing
+
+**[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
+
+- [TrueConf](https://trueconf.com/products/server/video-conferencing-server.html) - Platform for your corporate communications, based on the advanced architecture, with support for UltraHD video conferencing, built-in messenger with personal and group chats, and a free version for up to 1,000 users. `⊘ Proprietary` `Docker/deb`
+
+
 ### Content Management Systems (CMS)
 
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
@@ -104,6 +110,7 @@
 
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
+- [OXID eShop](https://oxidforge.org/en/) - OXID eShop is a flexible open source e-commerce software with a wide range of functionalities. ([Source Code](https://github.com/OXID-eSales/oxideshop_ce)) `⊘ Proprietary` `PHP`
 - [Sharetribe](https://www.sharetribe.com) - Open-source platform to create your own peer-to-peer marketplace, also available with SaaS model. ([Source Code](https://github.com/sharetribe/sharetribe)) `⊘ Proprietary` `Ruby`
 
 
@@ -114,13 +121,6 @@
 - [FileRun](https://www.filerun.com/) - Complete solution for your files with integration with Google and Office. ([Demo](https://www.filerun.com/demo)) `⊘ Proprietary` `PHP`
 - [Resilio Sync](https://www.resilio.com/) - Proprietary peer-to-peer file synchronisation tool. `⊘ Proprietary` `Unknown`
 - [Yetishare](https://yetishare.com) - Powerful file hosting script with support for Amazon S3, Wasabi, Backblaze, local, direct and SFTP storage. ([Demo](https://fhscript.com)) `⊘ Proprietary` `PHP`
-
-
-### File Transfer - Object Storage & File Servers
-
-**[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
-
-- [DaneeCloud](https://docs.daneeskripter.dev/projects/daneecloud) - Multi-user file storage and sharing application. ([Source Code](https://github.com/DaneeSkripter/DaneeCloud)) `GPL-3.0/SSPL-1.0` `Nodejs`
 
 
 ### Games
@@ -173,14 +173,7 @@
 - [Pancake](https://www.pancakeapp.com/) - Online invoicing, project management, time tracking and proposal software. `⊘ Proprietary` `PHP`
 
 
-### Pastebins
-
-**[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
-
-- [not-th.re](https://not-th.re) - Simple paste sharing platform, with client side encryption, featuring the monaco browser-based code editor. ([Demo](https://not-th.re), [Source Code](https://github.com/not-three/main)) `NPOSL-3.0` `Nodejs/Docker`
-
-
-### Photo and Video Galleries
+### Photo Galleries
 
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
@@ -188,13 +181,6 @@
 - [PhotoStructure](https://photostructure.com/) - All your family's photos and videos automatically organized into a fun and beautiful website. Runs via Docker, NodeJS, or native desktop installers. `⊘ Proprietary` `Nodejs`
 - [Reservo](https://reservo.co) - Scalable image hosting script with support for CDNs, paid account upgrades, advertising spots and drag & drop upload. ([Demo](https://demo.reservo.co/)) `⊘ Proprietary` `PHP`
 - [Single File PHP Gallery](http://sye.dk/sfpg/) - Web gallery in one single PHP file. `⊘ Proprietary` `PHP`
-
-
-### Proxy
-
-**[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
-
-- [inlets](https://inlets.dev/) - Expose your local endpoints to the Internet - with a Kubernetes integration, Docker image and CLI available. ([Source Code](https://github.com/inlets/inlets-pro)) `⊘ Proprietary` `Go/Docker`
 
 
 ### Recipe Management
@@ -236,7 +222,15 @@
 
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
+- [Composio](https://composio.dev/) `⚠` - Integration platform for AI agents & LLMs with support for 250+ apps and custom tools. ([Source Code](https://github.com/ComposioHQ/composio)) `Elastic-2.0` `Python`
 - [Hook0](https://www.hook0.com) - A Webhooks-as-a-service (WaaS) that makes it easy for online products to provide webhooks. Dispatch up to 3,000 events/month with 7 days of history retention for free. ([Source Code](https://gitlab.com/hook0/hook0)) `SSPL-1.0` `Rust/Nodejs/Docker`
+
+
+### Software Development - IDE & Tools
+
+**[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
+
+- [RepoFlow](https://www.repoflow.io) - Simplify package management for npm, PyPI, Docker, Go, Helm, and more. Try it for free with 10GB storage, 10GB bandwidth, 100 packages, and unlimited users in the cloud, or self-hosted for personal use only. `⊘ Proprietary` `Nodejs/Docker`
 
 
 ### Software Development - Low Code
@@ -290,7 +284,6 @@
 
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
-- [Anuko](https://github.com/anuko/timetracker) - Simple time and project tracking on a self-hosted basis. `SSPL-1.0` `PHP`
 - [Virtual TimeClock](https://www.redcort.com/timeclock) - Powerful, easy-to-use time tracking software. ([Demo](https://www.redcort.com/timeclock/free-timeclock-software-trial)) `⊘ Proprietary` `Unknown`
 
 
